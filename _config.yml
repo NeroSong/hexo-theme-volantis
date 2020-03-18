@@ -351,14 +351,14 @@ widget:
     class: text
     display: [desktop] # [desktop, mobile]
     header:
-      icon: fab fa-github
+      icon: fas fa-feather-alt
       title: 尝试一下
       url: https://github.com/xaoxuu/
     content:
       - '以下都是些非常有趣的小玩意儿~'
       - '没准能够帮到你😝'
       - '[<img src="https://cdn.jsdelivr.net/gh/NeroSong/cdn-blog/intro_icon_gk.png" height="60px">](https://www.coolapk.com/apk/com.nerosong.godknows)'
-      - '[<img src="https://cdn.jsdelivr.net/gh/NeroSong/cdn-blog/intro_icon_xlw1.png" height="55px">](https://essay.1ts.fun)'
+      - '[<img src="https://cdn.jsdelivr.net/gh/NeroSong/cdn-blog/intro_icon_xlw3.png" height="55px">](https://essay.1ts.fun)'
 
 
 footer:

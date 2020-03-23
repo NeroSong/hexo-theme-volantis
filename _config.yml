@@ -79,7 +79,7 @@ style:
     hover: '#00FA75' # Link highlight color
     inner: '#FFFFFF' # Text color inside the button
     block: '#16A286' # Block color
-    inlinecode: yellow # Inline code color
+    inlinecode: '#D6D6FF' # Inline code color
     codeblock: '#2C3E50' # Codeblock color
     p: '#F0FFF7' # Paragraph color
 
@@ -132,16 +132,16 @@ navbar:
         url: /
       - name: 归档
         icon: fas fa-archive
-        url: /archives
+        url: /archives/
       - name: 产品
         icon: fas fa-code
-        url: /product
+        url: /product/
       - name: 实验室
         icon: fas fa-flask
-        url: /lab
+        url: /lab/
       - name: 关于
         icon: fas fa-info-circle
-        url: /about
+        url: /about/
     # This menu will be displayed on the mobile.
     on_mobile:
       - name: 博文
@@ -149,16 +149,16 @@ navbar:
         url: /
       - name: 归档
         icon: fas fa-archive
-        url: /archives
+        url: /archives/
       - name: 产品
         icon: fas fa-code
-        url: /product
+        url: /product/
       - name: 实验室
         icon: fas fa-flask
-        url: /lab
+        url: /lab/
       - name: 关于
         icon: fas fa-info-circle
-        url: /about
+        url: /about/
   search:   # Search bar placeholder
 
 
@@ -167,8 +167,8 @@ layout:
   # The following can be written in `blog/source/_data/layout.yml`
   # 文章列表（主页、自定义的列表）布局
   on_list:
-    # 列表中每一篇文章的meta信息
-    meta: [title, author, category, date, wordcount, top]
+    # 列表中每一篇文章的meta信息, 去掉了author
+    meta: [title, category, date, wordcount, top]
     # 列表类页面的侧边栏
     sidebar: [blogger, category, tagcloud, repos]
     # read more button
@@ -181,7 +181,7 @@ layout:
     # 其中，title只在header中有效，music和thumbnail无需在这里设置，文章中有则显示
     # 如果tags放置在meta.header中，那么在post列表中不显示（因为卡片下方已经有了）
     meta:
-      header: [title, author, category, date, top]
+      header: [title, category, date, wordcount, top]
       footer: [updated, tags, btns, share]
     # 文章页面的侧边栏
     sidebar: [toc, related_posts]
@@ -277,7 +277,7 @@ widget:
     class: blogger
     display: [desktop] # [desktop, mobile]
     avatar: https://cdn.jsdelivr.net/gh/NeroSong/cdn-blog/avator.jpg
-    title:
+    title: 西海岸总督
     subtitle:
     jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
     social: true
@@ -353,7 +353,7 @@ widget:
     header:
       icon: fas fa-feather-alt
       title: 尝试一下
-      url: https://github.com/xaoxuu/
+      url: /
     content:
       - '以下都是些非常有趣的小玩意儿~'
       - '没准能够帮到你😝'
@@ -373,7 +373,7 @@ footer:
       url: https://github.com/NeroSong
   copyright: 'Copyright © 2018-2020 西海岸总督 ❤️ 新语问湖 | [陇ICP备19003414号](http://www.beian.miit.gov.cn)'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
-  br: '<br>'
+  # br: '<br>'
 
 
 ############################### SEO ###############################
@@ -417,10 +417,10 @@ plugins:
 
   ######## Plugins for SEO:
   # Traffic statistics (very slow loading)
-  busuanzi: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
+  # busuanzi: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
 
   # npm i --save hexo-wordcount
-  wordcount: #true
+  wordcount: true
 
   ######## Plugins for ...
   # Button Ripple Effect

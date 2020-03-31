@@ -278,8 +278,8 @@ widget:
     display: [desktop] # [desktop, mobile]
     avatar: https://cdn.jsdelivr.net/gh/NeroSong/cdn-blog/avator.jpg
     title: 西海岸总督
-    subtitle:
-    jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+    subtitle: What you do makes yourself
+    jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
     social: true
   # ---------------------------------------
   # toc widget (valid only in articles)

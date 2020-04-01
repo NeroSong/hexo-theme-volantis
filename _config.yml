@@ -82,6 +82,11 @@ style:
     inlinecode: '#D6D6FF' # Inline code color
     codeblock: '#2C3E50' # Codeblock color
     p: '#F0FFF7' # Paragraph color
+    h1: '#F1C40F'
+    h2: '#F1C40F'
+    h3: '#F1C40F'
+    h4: '#F1C40F'
+    
 
 
 

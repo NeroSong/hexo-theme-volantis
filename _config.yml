@@ -80,7 +80,7 @@ style:
     inner: '#FFFFFF' # Text color inside the button
     block: '#16A286' # Block color
     inlinecode: '#D6D6FF' # Inline code color
-    codeblock: '#2C3E50' # Codeblock color
+    codeblock: '#131325' # Codeblock color
     p: '#F0FFF7' # Paragraph color
     h1: '#F1C40F'
     h2: '#F1C40F'

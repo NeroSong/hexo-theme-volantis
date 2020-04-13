@@ -478,6 +478,10 @@ plugins:
     volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
     list_max_height: 340px # list max height
     list_folded: true
+  
+  highlightjs:
+    js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js
+    css: https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/styles/atom-one-dark.css
 
 
 

@@ -283,7 +283,7 @@ widget:
     shape: rectangle # circle, rectangle
     url: /about/
     title: 西海岸总督
-    subtitle: What you do makes yourself
+    subtitle: Si vis pacem, para bellum
     jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
     social: true
   # ---------------------------------------

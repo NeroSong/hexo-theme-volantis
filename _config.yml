@@ -171,7 +171,7 @@ layout:
     # 列表中每一篇文章的meta信息, 去掉了author
     meta: [title, category, date, wordcount, top]
     # 列表类页面的侧边栏
-    sidebar: [blogger, category, tagcloud, repos]
+    sidebar: [blogger, category, repos, tagcloud]
     # read more button
     readmore: Read More <i class="fas fa-chevron-right"></i>
   # 页面布局
@@ -185,7 +185,7 @@ layout:
       header: [title, category, date, wordcount, top]
       footer: [updated, tags, btns, share]
     # 文章页面的侧边栏
-    sidebar: [toc, related_posts]
+    sidebar: [toc, related_posts, repos]
   # 文章布局，参数继承自 on_page
   on_post:
     # 文章页脚，自动在每一篇文章末尾添加
@@ -376,10 +376,12 @@ widget:
       title: 尝试一下
       url: /
     content:
-      - '以下都是些非常有趣的小玩意儿~'
-      - '没准能够帮到你😝'
+      - '以下都是我做的有趣小玩意儿~'
+      - '希望能够帮到你😝'
       - '[<img src="https://cdn.jsdelivr.net/gh/NeroSong/cdn-blog/intro_icon_gk.png" height="60px">](https://www.coolapk.com/apk/com.nerosong.godknows)'
       - '[<img src="https://cdn.jsdelivr.net/gh/NeroSong/cdn-blog/intro_icon_xlw3.png" height="55px">](https://essay.1ts.fun)'
+      - '[<img src="https://cdn.jsdelivr.net/gh/NeroSong/cdn-blog/intro_icon_pin.png" height="60px">](https://www.coolapk.com/apk/com.nerosong.Pin)'
+      - '[<img src="https://cdn.jsdelivr.net/gh/NeroSong/cdn-blog/intro_icon_pp.png" style="margin-left:6px;" height="50px">](https://privacy.1ts.fun/)'
 
 
 footer:
